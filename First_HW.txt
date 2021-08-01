@@ -1,49 +1,49 @@
-1) Посмотреть где я                  - "pwd"
-2) Создать папку                     - "mkdir work"
-3) Зайти в папку                     - "cd work"
-4) Создать 3 папки                   - "mkdir test_1 test_2 test_3"
-5) Зайти в любоую папку              - "cd test_1"
-6) Создать 5 файлов (3 txt, 2 json)  - "touch File_A.txt File_B.txt File_C.txt son.json second_son.json"
-7) Создать 3 папки                   - "mkdir "Example 1" "Example 2" "Example 3""
+п»ї1) РџРѕСЃРјРѕС‚СЂРµС‚СЊ РіРґРµ СЏ                  - "pwd"
+2) РЎРѕР·РґР°С‚СЊ РїР°РїРєСѓ                     - "mkdir work"
+3) Р—Р°Р№С‚Рё РІ РїР°РїРєСѓ                     - "cd work"
+4) РЎРѕР·РґР°С‚СЊ 3 РїР°РїРєРё                   - "mkdir test_1 test_2 test_3"
+5) Р—Р°Р№С‚Рё РІ Р»СЋР±РѕСѓСЋ РїР°РїРєСѓ              - "cd test_1"
+6) РЎРѕР·РґР°С‚СЊ 5 С„Р°Р№Р»РѕРІ (3 txt, 2 json)  - "touch File_A.txt File_B.txt File_C.txt son.json second_son.json"
+7) РЎРѕР·РґР°С‚СЊ 3 РїР°РїРєРё                   - "mkdir "Example 1" "Example 2" "Example 3""
 
-8. Вывести список содержимого папки          - "ls" or "ls -la"
-9) + Открыть любой txt файл                  - "vim File_A.txt"
-10) + написать туда что-нибудь, любой текст. - "i" -> "Скопировал первые 18 строчек песни Shallow" "Esc"
-11) + сохранить и выйти.                     - "Shift+;" -> "wq"
-12) Выйти из папки на уровень выше           - "cd .."
-—
-13) переместить любые 2 файла, которые вы создали, в любую другую папку.   - "mv File_B.txt son.json 'Example 1'"
-14) скопировать любые 2 файла, которые вы создали, в любую другую папку.   - "cp 'Example 1'/File_B.txt 'Example 2' | cp 'Example 1'/son.json 'Example 2'"
+8. Р’С‹РІРµСЃС‚Рё СЃРїРёСЃРѕРє СЃРѕРґРµСЂР¶РёРјРѕРіРѕ РїР°РїРєРё          - "ls" or "ls -la"
+9) + РћС‚РєСЂС‹С‚СЊ Р»СЋР±РѕР№ txt С„Р°Р№Р»                  - "vim File_A.txt"
+10) + РЅР°РїРёСЃР°С‚СЊ С‚СѓРґР° С‡С‚Рѕ-РЅРёР±СѓРґСЊ, Р»СЋР±РѕР№ С‚РµРєСЃС‚. - "i" -> "РЎРєРѕРїРёСЂРѕРІР°Р» РїРµСЂРІС‹Рµ 18 СЃС‚СЂРѕС‡РµРє РїРµСЃРЅРё Shallow" "Esc"
+11) + СЃРѕС…СЂР°РЅРёС‚СЊ Рё РІС‹Р№С‚Рё.                     - "Shift+;" -> "wq"
+12) Р’С‹Р№С‚Рё РёР· РїР°РїРєРё РЅР° СѓСЂРѕРІРµРЅСЊ РІС‹С€Рµ           - "cd .."
+вЂ”
+13) РїРµСЂРµРјРµСЃС‚РёС‚СЊ Р»СЋР±С‹Рµ 2 С„Р°Р№Р»Р°, РєРѕС‚РѕСЂС‹Рµ РІС‹ СЃРѕР·РґР°Р»Рё, РІ Р»СЋР±СѓСЋ РґСЂСѓРіСѓСЋ РїР°РїРєСѓ.   - "mv File_B.txt son.json 'Example 1'"
+14) СЃРєРѕРїРёСЂРѕРІР°С‚СЊ Р»СЋР±С‹Рµ 2 С„Р°Р№Р»Р°, РєРѕС‚РѕСЂС‹Рµ РІС‹ СЃРѕР·РґР°Р»Рё, РІ Р»СЋР±СѓСЋ РґСЂСѓРіСѓСЋ РїР°РїРєСѓ.   - "cp 'Example 1'/File_B.txt 'Example 2' | cp 'Example 1'/son.json 'Example 2'"
 
-15) Найти файл по имени    -  "find . -name File_C.txt"
-             Результат:    - "./work/test_1/File_C.txt"
-16) просмотреть содержимое в реальном времени (команда grep) изучите как она работает. - "tail -f File_A.txt"
+15) РќР°Р№С‚Рё С„Р°Р№Р» РїРѕ РёРјРµРЅРё    -  "find . -name File_C.txt"
+             Р РµР·СѓР»СЊС‚Р°С‚:    - "./work/test_1/File_C.txt"
+16) РїСЂРѕСЃРјРѕС‚СЂРµС‚СЊ СЃРѕРґРµСЂР¶РёРјРѕРµ РІ СЂРµР°Р»СЊРЅРѕРј РІСЂРµРјРµРЅРё (РєРѕРјР°РЅРґР° grep) РёР·СѓС‡РёС‚Рµ РєР°Рє РѕРЅР° СЂР°Р±РѕС‚Р°РµС‚. - "tail -f File_A.txt"
                                                                                          "grep -i times File_A.txt"
-                                                                            Результат: - "In all the good times I find myself longin' for change
+                                                                            Р РµР·СѓР»СЊС‚Р°С‚: - "In all the good times I find myself longin' for change
                                                                                           And in the bad times, I fear myself
                                                                                           In all the good times I find myself longing for change
                                                                                           And in the bad times, I fear myself"
                                                                                        - "grep -c times File_A.txt"
-                                                                            Результат: - "4"
-17) вывести несколько первых строк из текстового файла                                 -  "head -n4 File_A.txt"
-                                                                            Результат: - "Tell me somethin', girl
+                                                                            Р РµР·СѓР»СЊС‚Р°С‚: - "4"
+17) РІС‹РІРµСЃС‚Рё РЅРµСЃРєРѕР»СЊРєРѕ РїРµСЂРІС‹С… СЃС‚СЂРѕРє РёР· С‚РµРєСЃС‚РѕРІРѕРіРѕ С„Р°Р№Р»Р°                                 -  "head -n4 File_A.txt"
+                                                                            Р РµР·СѓР»СЊС‚Р°С‚: - "Tell me somethin', girl
                                                                                           Are you happy in this modern world?
                                                                                           Or do you need more?
                                                                                           Is there somethin' else you're searchin' for?"
-18) вывести несколько последних строк из текстового файла                              - "tail -n4 File_A.txt"
-                                                                            Результат: - "I'm off the deep end, watch as I dive in
+18) РІС‹РІРµСЃС‚Рё РЅРµСЃРєРѕР»СЊРєРѕ РїРѕСЃР»РµРґРЅРёС… СЃС‚СЂРѕРє РёР· С‚РµРєСЃС‚РѕРІРѕРіРѕ С„Р°Р№Р»Р°                              - "tail -n4 File_A.txt"
+                                                                            Р РµР·СѓР»СЊС‚Р°С‚: - "I'm off the deep end, watch as I dive in
                                                                                           I'll never meet the ground
                                                                                           Crash through the surface, where they can't hurt us
                                                                                           We're far from the shallow now"
-19) просмотреть содержимое длинного файла (команда less) изучите как она работает.    - "less File_A.txt"
-20) вывести дату и время                                                              - date
-                                                                           Результат: - "Wed Jul 28 22:49:58 RTZ 2021"
+19) РїСЂРѕСЃРјРѕС‚СЂРµС‚СЊ СЃРѕРґРµСЂР¶РёРјРѕРµ РґР»РёРЅРЅРѕРіРѕ С„Р°Р№Р»Р° (РєРѕРјР°РЅРґР° less) РёР·СѓС‡РёС‚Рµ РєР°Рє РѕРЅР° СЂР°Р±РѕС‚Р°РµС‚.    - "less File_A.txt"
+20) РІС‹РІРµСЃС‚Рё РґР°С‚Сѓ Рё РІСЂРµРјСЏ                                                              - date
+                                                                           Р РµР·СѓР»СЊС‚Р°С‚: - "Wed Jul 28 22:49:58 RTZ 2021"
 =========
 
-Задание *
-1) Отправить http запрос на сервер.                                                   - "curl -i https://api.quarantine.country/api/v1/regions"
+Р—Р°РґР°РЅРёРµ *
+1) РћС‚РїСЂР°РІРёС‚СЊ http Р·Р°РїСЂРѕСЃ РЅР° СЃРµСЂРІРµСЂ.                                                   - "curl -i https://api.quarantine.country/api/v1/regions"
 https://api.quarantine.country/api/v1/regions
-2) Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13         - "#!/bin/bash
+2) РќР°РїРёСЃР°С‚СЊ СЃРєСЂРёРїС‚ РєРѕС‚РѕСЂС‹Р№ РІС‹РїРѕР»РЅРёС‚ Р°РІС‚РѕРјР°С‚РёС‡РµСЃРєРё РїСѓРЅРєС‚С‹ 3, 4, 5, 6, 7, 8, 13         - "#!/bin/bash
 
                                                                                          cd work
                                                                                          mkdir File1 File2 File3
